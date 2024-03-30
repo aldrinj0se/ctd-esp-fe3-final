@@ -1,5 +1,5 @@
 import Card from "../Components/Card";
-import { useContextGlobal } from "../Components/utils/Global.context";
+import { useContextGlobal } from "../Components/utils/global.context";
 
 const Home = () => {
   const { state, toggleTheme } = useContextGlobal();

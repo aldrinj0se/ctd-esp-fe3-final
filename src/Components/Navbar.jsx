@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { useContextGlobal } from "../Components/utils/Global.context";
+import { useContextGlobal } from "./utils/global.context";
 
 const Navbar = () => {
   const { state, dispatch, toggleTheme } = useContextGlobal();

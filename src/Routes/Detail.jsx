@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
-import { useContextGlobal } from "../Components/utils/Global.context";
+import { useContextGlobal } from "../Components/utils/global.context";
 import axios from "axios";
 
 const Detail = () => {

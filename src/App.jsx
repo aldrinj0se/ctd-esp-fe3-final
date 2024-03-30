@@ -5,7 +5,7 @@ import Home from "./Routes/Home";
 import Contact from "./Routes/Contact";
 import Favs from "./Routes/Favs";
 import Detail from "./Routes/Detail";
-import { useContextGlobal } from "./Components/utils/Global.context";
+import { useContextGlobal } from "./Components/utils/global.context";
 
 function App() {
   const { toggleTheme } = useContextGlobal();

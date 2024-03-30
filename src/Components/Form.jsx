@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { useContextGlobal } from "./utils/Global.context";
+import { useContextGlobal } from "./utils/global.context";
 
 const Form = () => {
   const { dispatch, validarTexto, validarEmail } = useContextGlobal();

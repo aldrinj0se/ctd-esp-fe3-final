@@ -1,4 +1,4 @@
-import { useContextGlobal } from "./utils/Global.context";
+import { useContextGlobal } from "./utils/global.context";
 import { Link } from "react-router-dom";
 
 const Card = ({ item }) => {
