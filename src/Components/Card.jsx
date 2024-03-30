@@ -1,5 +1,6 @@
 import { useContextGlobal } from "./utils/global.context";
 import { Link } from "react-router-dom";
+import img from "/src/images/doctor.jpg";
 
 const Card = ({ item }) => {
   const { name, username, id } = item;
@@ -13,7 +14,7 @@ const Card = ({ item }) => {
     <div className="card">
       <Link to={"/detail/" + id}>
         <div>
-          <img src="../../public/images/doctor.jpg" alt="Doctor" width={200} />
+          <img src={img} alt="Doctor" width={200} />
           <h3>{name}</h3>
           <h4>
             {id} - {username}
